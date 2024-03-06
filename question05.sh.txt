@@ -1,6 +1,0 @@
-# Create a directory dir1 in the current repository containing a file file2
-mkdir dir1
-echo "Content of file2" > dir1/file2
-
-# Stage (but not commit) the dir1 directory with all of its contents
-git add dir1
