@@ -1,13 +1,14 @@
-# Create and switch to a new branch named branch2
-git checkout -b branch2
+# Switch back to branch2
+git checkout branch2
 
-# Create and commit a file file4
-echo "Content for file4" > file4
-git add file4
-git commit -m "Add file4"
+# Check the status to identify uncommitted changes
+git status
 
-# Modify file4
-echo "Modified content for file4" >> file4
+# If there are uncommitted changes, restore them
+# Use appropriate commands based on the nature of the changes
+# For example, if there are changes in file4.txt
+git restore file4.txt
 
-# Switch back to the main branch without committing changes
-git checkout master
+# Commit the changes
+git add .  # Add all changes
+git commit -m "Restore and commit uncommitted changes"
