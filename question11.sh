@@ -10,4 +10,4 @@ git commit -m "Add file4"
 echo "Modified content for file4" >> file4
 
 # Switch back to the main branch without committing changes
-git checkout -
+git checkout master
