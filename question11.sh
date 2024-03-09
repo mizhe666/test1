@@ -1,13 +1,17 @@
-# Create and switch to a new branch named branch2
 git checkout -b branch2
 
-# Create, and commit a file file4
+# Create and commit a file file4
 touch file4
 git add file4
 git commit -m "Added file4"
 
 # Modify file4
-# ... Make changes to file4 using a text editor ...
+echo "Updated content" >> file4
+git add file4
+git commit -m "Modified file4"
 
 # Switch back to the main branch without committing your changes
-git checkout main
+git checkout -
+
+# Test and verify your commands in a blank/test repository
+# ... Perform the above steps in a test repository ...
