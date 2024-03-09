@@ -1,14 +1,12 @@
 # Switch back to branch2
 git checkout branch2
 
-# Check the status to identify uncommitted changes
-git status
+# Restore and commit your uncommitted changes
+git restore file4
+git add file4
+git commit -m "Restored and committed changes to file4"
 
-# If there are uncommitted changes, restore them
-# Use appropriate commands based on the nature of the changes
-# For example, if there are changes in file4.txt
-git restore file4.txt
+# Test and verify your commands in a blank/test repository
+# ... Perform the above steps in a test repository ...
 
-# Commit the changes
-git add .  # Add all changes
-git commit -m "Restore and commit uncommitted changes"
+# Save the commands in a file named question12.sh
