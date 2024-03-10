@@ -11,4 +11,5 @@ git commit -m "Add file4 to branch2"
 echo "Modified content for file4" > file4
 
 # Switch back to the main branch without committing changes
+git stash
 git checkout main
