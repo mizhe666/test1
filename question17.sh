@@ -7,7 +7,7 @@ git commit -m "bar_copy"
 # Create branch1 and add, move, remove & modify files
 git checkout -b branch1
 cd dir1/dir2
-rm foo
+git rm foo
 git add .
 git commit -m "branch1"
 # Create branch2 and add, move, remove & modify files
