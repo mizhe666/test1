@@ -6,13 +6,6 @@ cp -r bar bar_copy
   git commit -m "bar_copy"
 # Create branch1 and add, move, remove & modify files
 git checkout -b branch1
-mkdir dir1
-echo "foo" > dir1/foo
-mkdir dir3
-echo "bar" > dir3/bar
-git add .
-git commit -m "Commit changes to branch1"
-
 # Create branch2 and add, move, remove & modify files
 git checkout -b branch2
 mv dir1/foo dir1/dir2/foo_modified
