@@ -5,7 +5,7 @@ cp -r bar bar_copy
  git add .
   git commit -m "bar_copy"
 # Create branch1 and add, move, remove & modify files
-git checkout -b branch1
+git checkout branch1
 # Create branch2 and add, move, remove & modify files
 git checkout -b branch2
 mv dir1/foo dir1/dir2/foo_modified
