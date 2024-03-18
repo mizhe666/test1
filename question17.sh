@@ -1,6 +1,9 @@
 # Change into the repository directory
 cd git-practice-03
-
+cd dir3
+cp -r bar bar_copy
+ git add .
+  git commit -m "bar_copy"
 # Create branch1 and add, move, remove & modify files
 git checkout -b branch1
 mkdir dir1
