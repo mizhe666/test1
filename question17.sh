@@ -8,8 +8,7 @@ cp -r bar bar_copy
 git checkout -b branch1
 mkdir dir1
 echo "foo" > dir1/foo
-mv dir3/bar_copy newfile1
-rm -r dir2
+mkdir dir3
 echo "bar" > dir3/bar
 git add .
 git commit -m "Commit changes to branch1"
