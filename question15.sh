@@ -1,6 +1,4 @@
-# Change into the repository directory
-cd git-practice-04
-
-# Retrieve the branch update1 from the remote server and switch to it
-git fetch origin update1
-git checkout update1
+cd git-practice-01
+git checkout main
+git rm main/dir1/file1
+ git merge branch1
